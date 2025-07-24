@@ -1,0 +1,19 @@
+.nav{
+   display: flex;
+   justify-content: space-between;
+}
+.ul{
+    display: flex;
+    gap: 48px;
+}
+.cart{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .hide{
+       content-visibility: hidden;
+    }
+}
